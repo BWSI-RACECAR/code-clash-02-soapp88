@@ -38,8 +38,8 @@ class Solution:
             for j in range(i, len(ary)):
                 if ary[i] + ary[j] == target:
                     return [i, j]
-                else:
-                    return False
+        return False
+             
                
 
 
