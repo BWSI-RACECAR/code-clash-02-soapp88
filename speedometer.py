@@ -35,10 +35,10 @@ class Solution:
 
         # TODO: Write code below to return a list with the solution to the prompt
         for i in range(len(ary)):
-            for j in range(i, len(ary)):
+            for j in range(i + 1, len(ary)):
                 if ary[i] + ary[j] == target:
                     return [i, j]
-                else if
+               
 
 
 def main():
