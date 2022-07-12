@@ -34,7 +34,7 @@ class Solution:
         # return type: list or bool
 
         # TODO: Write code below to return a list with the solution to the prompt
-        for i in range(len(ary) -1):
+        for i in range(len(ary)):
             for j in range(i, len(ary)):
                 if ary[i] + ary[j] == target:
                     return [i, j]
